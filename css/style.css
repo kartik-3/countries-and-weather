@@ -4,9 +4,11 @@
 }
 
 .card-img-top {
+  padding-top: 10px;
   margin: auto;
   max-width: 250px !important;
   max-height: 175px;
+  height: 175px !important;
 }
 
 .row {
@@ -16,19 +18,20 @@
   border-radius: 10px;
 }
 
-.col {
-}
-
 .card {
   margin: 10px 0 10px 0;
 }
 
 .card-header {
+  padding: auto;
   text-align: center;
   font-size: 25px;
   font-weight: 700;
+  height: 90px;
 }
 
 .card-body {
+  max-height: 500px;
+  height: 250px;
   text-align: center;
 }
